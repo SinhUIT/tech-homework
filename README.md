@@ -1,4 +1,4 @@
-#### FLASK RESTFUL API HOMEWORK
+## FLASK RESTFUL API
 
 ### Terminal commands
 Note: make sure you have `python3` and `pip` installed. Then change current directory to the project directory
