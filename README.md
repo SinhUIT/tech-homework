@@ -27,8 +27,8 @@ Note: make sure you have `python3` and `pip` installed. Then change current dire
         Content-Type: application/json
         Body:
             {
-              "poolId": 5,
-              "percentile": 5
+                "poolId": 5,
+                "poolValues": [1,2,5]
             }
     2. Calculate quantile and count number of elements in a pool
         Method: POST
@@ -36,6 +36,6 @@ Note: make sure you have `python3` and `pip` installed. Then change current dire
         Content-Type: application/json
         Body:
             {
-              "poolId": 5,
-              "percentile": 99
+                "poolId": 5,
+                "percentile": 99
             }
